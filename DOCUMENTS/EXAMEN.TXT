@@ -23,5 +23,14 @@ $ git push examen master
 Exercici 6
 $ git branch ampliacio
 $ git checkout ampliacio
-
+$ git add .
+$ git commit -m "Form Animal"
+$ git push examen ampliacio
+Exercici 7
+$ git checkout master
+$ git merge ampliacio
+Exercici 8
+$ git add .
+$ git commit -m "Final"
+$ git push examen master
 
