@@ -4,3 +4,8 @@ $ git add .
 $ git commit -m "Fitxer ReadMe i fitxer Author"
 $ git remote add examen https://github.com/adrianmoya1/examenm5uf2
 $ git push examen master
+Exercici 2
+$ git add .
+$ git commit -m "Carpeta Documents i License"
+$ git push examen master
+
