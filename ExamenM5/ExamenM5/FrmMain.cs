@@ -10,11 +10,25 @@ using System.Windows.Forms;
 
 namespace ExamenM5
 {
-    public partial class Form1 : Form
+    public partial class FrmMain : Form
     {
-        public Form1()
+        private FrmMenjar frmMen = null;
+        private FrmVintage frmVin = null;
+        public FrmMain()
         {
             InitializeComponent();
+        }
+
+        private void btMenjar_Click(object sender, EventArgs e)
+        {
+            frmMen = new FrmMenjar();
+            frmMen.Show();
+        }
+
+        private void btVintage_Click(object sender, EventArgs e)
+        {
+            frmVin = new FrmVintage();
+            frmVin.Show();
         }
     }
 }

@@ -8,4 +8,11 @@ Exercici 2
 $ git add .
 $ git commit -m "Carpeta Documents i License"
 $ git push examen master
-
+Exercici 3
+$ git add .
+$ git commit -m "Projecte C Sharp"
+$ git push examen master
+Exercici 4
+$ git add .
+$ git commit -m "Botons Menjar i Vintage"
+$ git push examen master
