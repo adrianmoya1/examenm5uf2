@@ -30,6 +30,7 @@
         {
             this.btMenjar = new System.Windows.Forms.Button();
             this.btVintage = new System.Windows.Forms.Button();
+            this.btAnimal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btMenjar
@@ -52,11 +53,23 @@
             this.btVintage.UseVisualStyleBackColor = true;
             this.btVintage.Click += new System.EventHandler(this.btVintage_Click);
             // 
+            // btAnimal
+            // 
+            this.btAnimal.BackColor = System.Drawing.Color.RosyBrown;
+            this.btAnimal.Location = new System.Drawing.Point(146, 125);
+            this.btAnimal.Name = "btAnimal";
+            this.btAnimal.Size = new System.Drawing.Size(75, 31);
+            this.btAnimal.TabIndex = 2;
+            this.btAnimal.Text = "Menjar";
+            this.btAnimal.UseVisualStyleBackColor = false;
+            this.btAnimal.Click += new System.EventHandler(this.btAnimal_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(391, 210);
+            this.Controls.Add(this.btAnimal);
             this.Controls.Add(this.btVintage);
             this.Controls.Add(this.btMenjar);
             this.Name = "FrmMain";
@@ -69,6 +82,7 @@
 
         private System.Windows.Forms.Button btMenjar;
         private System.Windows.Forms.Button btVintage;
+        private System.Windows.Forms.Button btAnimal;
     }
 }
 

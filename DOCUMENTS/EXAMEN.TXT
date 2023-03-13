@@ -16,3 +16,12 @@ Exercici 4
 $ git add .
 $ git commit -m "Botons Menjar i Vintage"
 $ git push examen master
+Exercici 5
+$ git add .
+$ git commit -m "Forms menjar i vintage"
+$ git push examen master
+Exercici 6
+$ git branch ampliacio
+$ git checkout ampliacio
+
+

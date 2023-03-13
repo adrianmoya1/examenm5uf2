@@ -14,6 +14,7 @@ namespace ExamenM5
     {
         private FrmMenjar frmMen = null;
         private FrmVintage frmVin = null;
+        private FrmAnimal frmAn = null;
         public FrmMain()
         {
             InitializeComponent();
@@ -29,6 +30,12 @@ namespace ExamenM5
         {
             frmVin = new FrmVintage();
             frmVin.Show();
+        }
+
+        private void btAnimal_Click(object sender, EventArgs e)
+        {
+            frmAn = new FrmAnimal();
+            frmAn.Show();
         }
     }
 }
